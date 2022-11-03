@@ -38,7 +38,7 @@
         <section class="delivery">
             <h1 class="delivery__header">Доставка топлива</h1>
             <form class="delivery__form" novalidate>
-                <legend class="form__title">Быстрый заказ топлива</legend>
+                <legend class="page__title">Быстрый <span class="form__title">заказ топлива</span></legend>
                 <fieldset class="form__wrap">
                     <div>
                         <label class="form__label">Ваше имя</label><br>
@@ -53,8 +53,92 @@
                 <input type="checkbox" class="form__checkbox">Я согласен с условиями обработки данных</button>
             </form>
         </section>
+        <section class="cost">            
+            <table class="cost__table" cellspacing="0" >
+                <caption class="page__title">Стоимость топлива</caption>
+                <tr class="span">
+                    <th class="cost__table_type_title">Сорт топлива</th>
+                    <th class="cost__table_type_title">Экологический класс</th>
+                    <th class="cost__table_type_title">Производитель</th>
+                    <th class="cost__table_type_title">Наличный расчет</th>
+                    <th class="cost__table_type_title">Безналичный расчет</th>
+                </tr>
+                <tr class="cost__table_type_span"></tr>
+                <tr>
+                    <td rowspan="5" valign="top" class="cost__table_type_sort">ДТ</td>
+                    <td rowspan="3" valign="top" class="cost__table_type_euro">ЕВРО-5</td>
+                    <td class="cost__table_type_cell">Газпромнефть</td>
+                    <td  class="cost__table_type_cell">45.43 р.</td>
+                    <td  class="cost__table_type_cell">44.43 р.</td>
+                </tr>
+                <tr>
+                    <td class="cost__table_type_cell">Лукойл</td>
+                    <td class="cost__table_type_cell">45.16 р.</td>
+                    <td class="cost__table_type_cell">43.98 р.</td>
+                </tr>
+                <tr>
+                    <td class="cost__table_type_cell ">Роснефть</td>
+                    <td class="cost__table_type_cell">42.34 р.</td>
+                    <td class="cost__table_type_cell">41.64 р.</td>
+                </tr>   
+                <tr>
+                    <td rowspan="2" valign="top" class="cost__table_type_euro">ЕВРО-4</td>
+                    <td class="cost__table_type_cell">Газпромнефть</td>
+                    <td  class="cost__table_type_cell">-</td>
+                    <td  class="cost__table_type_cell">-</td>
+                </tr>   
+                <tr>
+                    <td class="cost__table_type_cell">Лукойл</td>
+                    <td class="cost__table_type_cell">41.16 р.</td>
+                    <td class="cost__table_type_cell">40.67 р.</td>
+                </tr> 
+                <tr class="cost__table_type_span"></tr>
+                <tr>
+                    <td rowspan="8" valign="top" class="cost__table_type_sort">АИ-95</td>
+                    <td rowspan="3" valign="top" class="cost__table_type_euro">ЕВРО-5</td>
+                    <td class="cost__table_type_cell">Газпромнефть</td>
+                    <td  class="cost__table_type_cell">45.43 р.</td>
+                    <td  class="cost__table_type_cell">44.43 р.</td>
+                </tr>    
+                <tr>
+                    <td class="cost__table_type_cell ">Роснефть</td>
+                    <td class="cost__table_type_cell">42.34 р.</td>
+                    <td class="cost__table_type_cell">41.64 р.</td>
+                </tr> 
+                <tr>
+                    <td class="cost__table_type_cell">Лукойл</td>
+                    <td class="cost__table_type_cell">45.16 р.</td>
+                    <td class="cost__table_type_cell">43.98 р.</td>
+                </tr> 
+                <tr>
+                    <td rowspan="2" valign="top" class="cost__table_type_euro">ЕВРО-4</td>
+                    <td class="cost__table_type_cell">Лукойл</td>
+                    <td class="cost__table_type_cell">41.16 р.</td>
+                    <td class="cost__table_type_cell">40.67 р.</td>
+                </tr>    
+                <tr>
+                    <td class="cost__table_type_cell">Газпромнефть</td>
+                    <td  class="cost__table_type_cell">-</td>
+                    <td  class="cost__table_type_cell">-</td>
+                </tr> 
+                <tr>
+                    <td rowspan="3" valign="top" class="cost__table_type_euro">ЕВРО-3</td>                    
+                    <td class="cost__table_type_cell ">Роснефть</td>
+                    <td class="cost__table_type_cell">42.34 р.</td>
+                    <td class="cost__table_type_cell">41.64 р.</td>
+                <tr>
+                    <td class="cost__table_type_cell">Газпромнефть</td>
+                    <td class="cost__table_type_cell">-</td>
+                    <td class="cost__table_type_cell">-</td>
+                </tr>
+                <tr>
+                    <td class="cost__table_type_cell">Лукойл</td>
+                    <td class="cost__table_type_cell">41.16 р.</td>
+                    <td class="cost__table_type_cell">40.67 р.</td>
+                </tr>
+            </table>
 
-
+        </section>
     </main>
 
     <footer>

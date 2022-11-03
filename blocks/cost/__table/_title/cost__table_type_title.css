@@ -1,0 +1,15 @@
+.cost__table_type_title {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: white;
+    background-color: #043C77;
+    height: 56px;
+    border: 1px solid #043C77;
+    width: 20%;
+    text-align: left;
+}
+
+.cost__table_type_title:first-child{
+    padding-left: 30px;
+}
