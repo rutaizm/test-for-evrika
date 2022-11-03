@@ -1,0 +1,18 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/sprite.css);
+@import url(../blocks/page/icon.css);
+
+@import url(../blocks/buttons/button.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/logo.css);
+@import url(../blocks/header/__buttons/header__buttons.css);
+@import url(../blocks/header/__buttons/header__buttons-wrap.css);
+@import url(../blocks/header/__icons/_type_phone.css);
+@import url(../blocks/header/__icons/_type_user.css);
+@import url(../blocks/header/header__wrap.css);
+@import url(../blocks/header/header__phone.css);
+

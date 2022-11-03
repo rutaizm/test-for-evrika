@@ -1,0 +1,9 @@
+.header__phone {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    font-size: normal;
+    color: black;
+    margin-left: 13px;
+    cursor: pointer;
+}

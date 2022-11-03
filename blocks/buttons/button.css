@@ -1,0 +1,13 @@
+.button {
+    border: none;
+    background-color: #098FCF;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    transition: opacity .4s ease-out;
+    cursor: pointer;
+}
+
+.button:hover {
+ opacity: .8;
+}
