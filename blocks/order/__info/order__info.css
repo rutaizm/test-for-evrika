@@ -1,0 +1,8 @@
+.order__info {
+    width: 638px;
+    height: 441px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 40px;
+    box-sizing: border-box;
+}

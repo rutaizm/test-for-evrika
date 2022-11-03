@@ -1,0 +1,15 @@
+.item {
+    width: 353px;
+    min-height: 138px;
+    background-color: white;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item:nth-of-type(3) {
+    margin-right: 0;
+}

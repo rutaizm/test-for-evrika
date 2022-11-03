@@ -41,3 +41,27 @@
 @import url(../blocks/cost/__table/_euro/cost__table_type_euro.css);
 @import url(../blocks/cost/__table/_cell/cost__table_type_cell.css);
 @import url(../blocks/cost/__table/_span/cost__table_type_span.css);
+
+@import url(../blocks/order/order.css);
+@import url(../blocks/order/__form/order__form.css);
+@import url(../blocks/order/__info/order__info.css);
+
+@import url(../blocks/work/work.css);
+@import url(../blocks/work/__wrap/work__wrap.css);
+
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__icon/card__icon.css);
+@import url(../blocks/card/__wrap/card__wrap.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__text/card__text.css);
+@import url(../blocks/card/__time/card__time.css);
+@import url(../blocks/card/__small-text/card__small-text.css);
+
+@import url(../blocks/benefits/benefits.css);
+@import url(../blocks/benefits/__wrap/benefits__wrap.css);
+
+@import url(../blocks/item/item.css);
+@import url(../blocks/item/__wrap/item__wrap.css);
+@import url(../blocks/item/__title/item__title.css);
+@import url(../blocks/item/__text/item__text.css);
+@import url(../blocks/item/__icon/item__icon.css);

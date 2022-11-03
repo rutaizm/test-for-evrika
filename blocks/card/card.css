@@ -1,0 +1,13 @@
+.card {
+    width: 353px;
+    min-height: 394px;
+    background-color: #043C77;
+    color: white;
+    margin-right: 31px;
+    padding: 30px 30px 27px;
+    box-sizing: border-box;
+}
+
+.card:last-of-type {
+    margin-right: 0;
+}
