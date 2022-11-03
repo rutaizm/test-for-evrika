@@ -1,0 +1,7 @@
+.form__wrap {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    padding: 0;
+    align-items: flex-end;
+}

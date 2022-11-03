@@ -1,0 +1,10 @@
+.form__checkbox {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    width: 24px;
+    height: 24px;
+}
+.form__checkbox:checked {
+    background-color: #D4D4D4;
+}

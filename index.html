@@ -10,12 +10,12 @@
     <header class="header">        
             <img class="logo" src="./images/logo-min.svg" alt="логотип в шапке">
             <div class="header__wrap">
-                <svg class="header__icon_type_phone"><use xlink:href="#phone"></use></svg>
+                <svg class="icons_type_phone"><use xlink:href="#phone"></use></svg>
                 <p class="header__phone">8 (495) 127-82-80</p>
                 <div class="header__buttons-wrap">
                     <button type="button" class="button header__buttons">Напишите нам</button>
                     <button type="button" class="button header__buttons">
-                        <svg class="header__icon_type_user"><use xlink:href="#user"></use> </svg>
+                        <svg class="icons_type_user"><use xlink:href="#user"></use> </svg>
                         Личный кабинет
                     </button>
                 </div>
@@ -23,6 +23,37 @@
     </header>
 
     <main>
+        <section class="menu">
+            <nav class="menu__nav">
+                <ul class="menu__list">
+                    <li class="menu__item">Доставка топлива</li>
+                    <li class="menu__item">Топливные карты<svg class="icons_type_arrow"><use xlink:href="#arrow"></use></svg></li>
+                    <li class="menu__item">АЗС<svg class="icons_type_arrow"><use xlink:href="#arrow"></use></svg></li>
+                    <li class="menu__item">Цены на топливо</li>
+                    <li class="menu__item">О компании<svg class="icons_type_arrow"><use xlink:href="#arrow"></use></svg></li>
+                    <li class="menu__item">Контакты</li>
+                </ul>
+            </nav>
+        </section>
+        <section class="delivery">
+            <h1 class="delivery__header">Доставка топлива</h1>
+            <form class="delivery__form" novalidate>
+                <legend class="form__title">Быстрый заказ топлива</legend>
+                <fieldset class="form__wrap">
+                    <div>
+                        <label class="form__label">Ваше имя</label><br>
+                        <input type="text" class="form__input"/>
+                    </div>
+                    <div>
+                        <label class="form__label">Номер телефона</label><br>
+                        <input type="tel" class="form__input"/>
+                    </div>                
+                    <button type="submit" class="button form__button">Заказать топливо</button>
+                </fieldset>
+                <input type="checkbox" class="form__checkbox">Я согласен с условиями обработки данных</button>
+            </form>
+        </section>
+
 
     </main>
 
@@ -44,6 +75,9 @@
         </symbol>
 
         <symbol id="user" viewBox="0 0 24 24"  fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 10a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm7.71 6.2a10.92 10.92 0 0 0-15.42 0l-.29.3V21h16v-4.5l-.29-.3z" fill="#FFFFFF"/>
+        </symbol>
+
+        <symbol id="arrow" viewBox="0 0 24 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m7 9 5 5 5-5" stroke="#000" stroke-width="1.8"/>
         </symbol>
     </svg>
 </body>

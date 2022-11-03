@@ -6,13 +6,29 @@
 @import url(../blocks/page/icon.css);
 
 @import url(../blocks/buttons/button.css);
+@import url(../blocks/icons/_type_phone.css);
+@import url(../blocks/icons/_type_user.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/logo.css);
 @import url(../blocks/header/__buttons/header__buttons.css);
-@import url(../blocks/header/__buttons/header__buttons-wrap.css);
-@import url(../blocks/header/__icons/_type_phone.css);
-@import url(../blocks/header/__icons/_type_user.css);
+@import url(../blocks/header/__buttons-wrap/header__buttons-wrap.css);
 @import url(../blocks/header/header__wrap.css);
 @import url(../blocks/header/header__phone.css);
 
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__nav/menu__nav.css);
+@import url(../blocks/menu/__list/menu__list.css);
+@import url(../blocks/menu/__item/menu__item.css);
+@import url(../blocks/icons/_type_arrow.css);
+
+@import url(../blocks/delivery/delivery.css);
+@import url(../blocks/delivery/__header/delivery__header.css);
+@import url(../blocks/delivery/__form/delivery__form.css);
+
+@import url(../blocks/form/__wrap/form__wrap.css);
+@import url(../blocks/form/__title/form__title.css);
+@import url(../blocks/form/__label/form__label.css);
+@import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form/button/form__button.css);
+@import url(../blocks/form/__checkbox/form__checkbox.css);
