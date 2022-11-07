@@ -1,0 +1,24 @@
+.certificates {
+ margin: 0 auto;
+ padding:  100px 0;
+ box-sizing: border-box;
+ width: 80%;
+}
+
+@media screen and (min-width:960px) and (max-width:1120px) {
+    .certificates {
+        padding:  80px 0;
+    }
+}
+
+@media screen and (min-width:640px) and (max-width:959px) {
+    .certificates {
+        padding:  60px 0;;
+    }
+  }
+  
+  @media screen and (min-width:320px) and (max-width:639px) {
+    .certificates {
+        padding:  40px 0;
+    }
+  }

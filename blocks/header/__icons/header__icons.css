@@ -1,0 +1,40 @@
+.header__icons_type_phone {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.header__icons_type_user {
+    height: 24px;
+    width: 24px;
+    margin-right: 8px;
+} 
+
+@media screen and (min-width:640px) and (max-width:959px) {
+    .header__icons_type_phone {
+        width: 18px;
+        height: 18px;
+    }
+    
+    .header__icons_type_user {
+        height: 22px;
+        width: 22px;
+        margin-right: -12px;
+    }     
+  }
+  
+  @media screen and (min-width:320px) and (max-width:639px) {
+    .header__icons_type_phone {
+        width: 16px;
+        height: 16px;
+    }
+    
+    .header__icons_type_user {
+        height: 20px;
+        width: 20px;        
+        margin-right: -10px;
+        display: none;
+    }     
+  }
+
+  

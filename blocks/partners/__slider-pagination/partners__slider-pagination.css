@@ -1,0 +1,8 @@
+.partners__slider-pagination {
+    display: flex;
+    justify-content: center;
+    column-gap: 47px;
+    align-items: center;
+    width: 97%;
+    margin-bottom: 100px;
+}

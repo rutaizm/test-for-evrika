@@ -2,5 +2,11 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 16px;
+    margin-left:36px;
 }
+
+@media screen and (min-width:320px) and (max-width:639px) {
+    .header__buttons-wrap {
+        margin-left:  7px;
+    }
+  }

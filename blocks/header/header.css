@@ -5,4 +5,6 @@
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
+    padding-top: 4px;
+    box-sizing: border-box;
 }

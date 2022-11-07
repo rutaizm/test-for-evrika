@@ -5,3 +5,11 @@
     padding: 15px 0 0 29px;
     border: 1px solid #E7E7E7;
 }
+
+    
+@media screen and (min-width:320px) and (max-width:639px) {
+    .cost__table_type_euro {
+        font-size: 10px;
+        line-height: 12px;
+    }
+}

@@ -1,0 +1,29 @@
+.footer__phone {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color:  #098FCF;
+    margin: 0;
+}
+
+@media screen and (min-width:960px) and (max-width:1120px) {
+    .footer__phone {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:640px) and (max-width:959px) {
+    .footer__phone {
+        font-size: 10px;
+        line-height: 16px;
+        text-align: center;
+    }
+  }
+  
+  @media screen and (min-width:320px) and (max-width:639px) {
+    .footer__phone {
+        font-size: 13px;
+        line-height: 12px;
+        text-align: left;
+    }
+  }

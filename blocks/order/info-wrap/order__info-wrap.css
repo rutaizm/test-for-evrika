@@ -1,0 +1,7 @@
+.order__info-wrap {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #E7E7E7;
+    padding: 16px 0 14px;
+    box-sizing: border-box;
+}

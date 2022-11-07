@@ -1,15 +1,18 @@
 .item {
     width: 353px;
-    min-height: 138px;
+    height: 138px;
     background-color: white;
-    margin-right: 30px;
-    margin-bottom: 30px;
     padding: 20px;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
+    
 }
 
-.item:nth-of-type(3) {
-    margin-right: 0;
-}
+@media screen and (min-width:320px) and (max-width:639px) {
+    .item {
+        width: 280px;
+        padding: 10px;
+        align-items: center;
+    }
+  }

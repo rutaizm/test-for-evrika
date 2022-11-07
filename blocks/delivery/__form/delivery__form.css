@@ -2,4 +2,24 @@
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
     padding: 49px 192px 46px 96px;
     box-sizing: border-box;
+    width: 97%;
 }
+
+@media screen and (min-width:960px) and (max-width:1120px) {
+    .delivery__form {
+        padding: 42px 43px 44px;
+    }
+}
+
+@media screen and (min-width:640px) and (max-width:959px) {
+    .delivery__form {
+        padding: 30px 
+    }
+  }
+  
+  @media screen and (min-width:320px) and (max-width:639px) {
+    .delivery__form {
+        padding: 30px;
+        width: 100%;
+    }
+  }

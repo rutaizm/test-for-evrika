@@ -1,0 +1,19 @@
+.questions__form-button {
+    width: 198px;
+    height: 44px;
+    margin-top: 5px;
+}
+
+@media screen and (min-width:640px) and (max-width:1190px) {
+    .questions__form-button {
+        margin-top: 15px;
+    }
+  }
+
+@media screen and (min-width:320px) and (max-width:639px) {
+    .questions__form-button  {
+        width: 220px;
+        margin-right: 0;
+        margin-top: 15px;
+    }
+  }

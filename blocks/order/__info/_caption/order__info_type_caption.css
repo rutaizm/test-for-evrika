@@ -1,0 +1,13 @@
+.order__info_type_caption {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    margin:10px 0 0 ;
+}
+
+@media screen and (min-width:320px) and (max-width:639px) {
+    .order__info_type_caption {
+        font-size: 8px;
+        line-height: 10px;
+    }
+  }

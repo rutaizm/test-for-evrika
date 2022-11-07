@@ -1,0 +1,50 @@
+.slider__buttons {
+    width: 56px;
+    height: 56px;
+    border: solid 1px #E5E5E5;
+    background-color: transparent;
+    padding: 18px 21px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.slider__buttons:first-of-type {
+    margin-right: 11px;
+}
+
+.slider__buttons_icons {
+    width: 20px;
+    height: 20px;
+}
+
+@media screen and (min-width:960px) and (max-width:1120px) {
+    .slider__buttons {
+        width: 46px;
+        height: 46px;
+        padding: 14px 17px;
+    }
+}
+
+@media screen and (min-width:640px) and (max-width:959px) {
+    .slider__buttons {
+        width: 30px;
+        height: 30px;
+        padding: 8px 9px;
+    }
+    .slider__buttons_icons {
+        width: 20px;
+        height: 20px;
+    }
+  }
+  
+  @media screen and (min-width:320px) and (max-width:639px) {
+    .slider__buttons_icons {
+        width: 20px;
+        height: 20px;
+    }
+    .slider__buttons {
+        width: 30px;
+        height: 30px;
+        padding: 8px 8px;
+    }
+  }

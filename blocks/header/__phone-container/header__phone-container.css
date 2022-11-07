@@ -1,0 +1,14 @@
+.header__phone-container {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+    .header__phone-container  {
+        visibility: hidden;
+        display: none;
+    }
+  }
+
+
+  

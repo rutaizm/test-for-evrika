@@ -1,0 +1,27 @@
+.questions {
+    background-color: #043C77;
+    padding: 77px 0 64px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+@media screen and (min-width:960px) and (max-width:1120px) {
+    .questions {
+        padding: 50px 0;
+    }
+}
+
+@media screen and (min-width:640px) and (max-width:959px) {
+    .questions {
+        padding: 35px 0;
+    }
+  }
+  
+  @media screen and (min-width:320px) and (max-width:639px) {
+    .questions {
+        padding: 35px 0;
+    }
+  }

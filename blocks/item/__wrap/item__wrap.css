@@ -3,3 +3,9 @@
     flex-direction: column;
     width: 246px;
 }
+
+@media screen and (min-width:320px) and (max-width:639px) {
+    .item__wrap {
+        width: 200px; 
+    }
+}

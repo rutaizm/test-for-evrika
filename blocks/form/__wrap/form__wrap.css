@@ -3,6 +3,24 @@
     flex-direction: row;
     border: none;
     padding: 0;
-    align-items: flex-end;
-    margin: 30px 0 33px;
+    align-items: center;
+    margin: 25px 0 21px;
+    justify-content: space-around;
+}
+
+@media screen and (min-width:960px) and (max-width:1280px) {
+    .form__wrap {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:640px) and (max-width:959px) {
+    .form__wrap {
+        flex-direction: column;
+    }
+}
+@media screen and (min-width:320px) and (max-width:639px) {
+    .form__wrap {
+        flex-direction: column;
+    }
 }

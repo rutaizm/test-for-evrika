@@ -1,0 +1,20 @@
+.partners__slider-bullet_active {
+    width: 8px;
+    height: 8px;
+    background-color: #098FCF;
+    cursor: default;
+}
+
+@media screen and (min-width:640px) and (max-width:959px) {
+    .partners__slider-bullet_active  {
+        width: 6px;
+        height: 6px;
+    }
+  }
+  
+  @media screen and (min-width:320px) and (max-width:639px) {
+    .partners__slider-bullet_active  {
+        width: 6px;
+        height: 6px;
+    }
+  }
